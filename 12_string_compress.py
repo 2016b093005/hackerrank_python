@@ -17,5 +17,5 @@ if __name__ == '__main__':
         output = output + "(" + str(frequency) + ", " + str(prev) + ") "
     else:
         output = output + "(" + str(frequency) + ", " + str(curr) + ") "
-    print(output)
+print(output)
 

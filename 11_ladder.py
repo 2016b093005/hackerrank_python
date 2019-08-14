@@ -1,0 +1,2 @@
+for i in range(1, int(input())):  # More than 2 lines will result in 0 score. Do not leave a blank line also
+    print(i * ((int(10 ** (i-1))) + int(10 ** (i-2))  + int(10 ** (i-3)) + int(10 ** (i-4)) + (int(10 ** (i-5))) + (int(10 ** (i-6))) + (int(10 ** (i-7))) + (int(10 ** (i-8))) + (int(10 ** (i-9)))))
